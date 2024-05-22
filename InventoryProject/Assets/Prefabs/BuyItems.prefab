@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4331170620757212929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472509127697314342}
+  - component: {fileID: 1968851151145244844}
+  m_Layer: 0
+  m_Name: BuyItems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472509127697314342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4331170620757212929}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9324049, y: 1.674596, z: -0.2652524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1968851151145244844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4331170620757212929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9154b73f8143d494db3a0b66300e6e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boughtItems:
+  - {fileID: 11400000, guid: e3064828862720548b49e6b67323246f, type: 2}
+  - {fileID: 11400000, guid: b4eaa14174e3f30438f7ffd78313ba64, type: 2}
+  - {fileID: 11400000, guid: 67262bac566385b4899733044584e525, type: 2}
+  - {fileID: 11400000, guid: 4ecd523f6d40a78458cee4b0eaa75732, type: 2}
+  - {fileID: 11400000, guid: 1197b846fd6503c49b3374b0dd547226, type: 2}
+  - {fileID: 11400000, guid: f8d798996d0d69b468a32b7edd845dd8, type: 2}
+  - {fileID: 11400000, guid: e81ed5b78661e82498442dbf7d564e0a, type: 2}
+  - {fileID: 11400000, guid: 6a60c6a345ecdf04f821ddf3075ccce8, type: 2}
+  - {fileID: 11400000, guid: e2b5706a4dca94a488c706de47b48c3a, type: 2}
+  checker: {fileID: 0}
+  coinsLeft: 100
+  coinText: {fileID: 0}
